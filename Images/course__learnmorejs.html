@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dove Developers </title>
+    <link rel="icon" type="image/png" href="./dove.png"/>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!--FONT(montserrat)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Montserrat:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+
+    <!--Ivonscout-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--swiperjs-->
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+</head>
+<body>
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html"><img src="./dove.png"><h4>DoveDevelopers</h4></a>
+
+            <ul class="nav__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+            <button id="open_menu_btn"><i class="uil uil-bars"></i></button>
+            <button id="close_menu_btn"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+
+    <div class="html_and_css">
+        <h3>Javascript</h3>
+        <p>
+            JavaScript is a programming language that is widely used in web development to create dynamic and interactive web pages. JavaScript is a client-side language, which means that it runs in the browser of the user who is viewing the web page.
+
+JavaScript can be used to add functionality to web pages, such as validating form data, responding to user events like clicks and keystrokes, and updating the content of a page without requiring a full page refresh. JavaScript can also be used to create more complex web applications, such as single-page applications and web-based games.
+
+JavaScript is an object-oriented language, which means that it uses objects to represent data and functionality. It has a number of built-in objects, such as the Date object and the Math object, as well as the ability to define custom objects.
+
+JavaScript is also a loosely typed language, which means that variables do not need to be declared with a specific data type. This allows for more flexibility and ease of use, but also requires careful programming to avoid unexpected behavior.
+
+In recent years, JavaScript has become more widely used outside of the web development world, as it can be used to create cross-platform desktop and mobile applications using frameworks like Electron and React Native.
+
+Overall, JavaScript is a powerful and versatile language that plays a critical role in modern web development, allowing developers to create interactive and engaging web pages and applications.
+
+
+
+Regene
+            </p>
+    </div>
+
+
+
+
+    <footer>
+        <div class="container footer__container">
+            <div class="footer__1">
+                <a href="index.html" class="footer__logo"><h4>DoveDevelopers</h4></a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, architecto!</p>
+            </div>
+            <div class="footer__2">
+                <h4>Permalinks</h4>
+                <ul class="permalinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+            </div>
+            <div class="footer__3">
+                <h4>Privacy</h4>
+                <ul class="privacy">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer__4">
+                <h4>Contact Us</h4>
+                <div>
+                    <p>+254 704245130</p>
+                    <p>joshua.epus@gmail.com</p>
+                </div>
+
+                <ul class="footer__socials">
+                    <li>
+                        <a href="#"><i class="uil uil-facebook-f"></i></a>
+                    </li>
+                    <li><a href="#"><i class="uil uil-instagram-alt"></i></a></li>
+                    <li><a href="#"><i class="uil uil-twitter"></i></a></li>
+                    <li><a href="#"><i class="uil uil-linkedin"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer__copyright">
+                <small>Copyright & copy:joshepus@gmail.com</small>
+            </div>
+        </div>
+      </footer>
+
+      <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+      <script src="../main.js"></script>
+
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          breakpoints: {
+            600: {
+                slidesPerView: 2
+          }
+          }
+        });
+      </script>
+
+    </body>
+    </html>
