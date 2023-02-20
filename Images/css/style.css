@@ -159,6 +159,7 @@ header {
 .categories h1 {
     line-height: 1;
     margin-bottom: 3rem;
+    margin-top: 3rem;;
 }
 .categories__container {
     display: grid;
@@ -562,10 +563,14 @@ html {
 }
 .categories__container1 p {
     font-size: small;
+    margin: 0;
+    padding: 0;
 }
 .categories__container1 h2 {
     font-size: xx-large;
     font-weight: bold;
+    margin: 0;
+    padding: 0;
 }
 
 .learnmore__container {
